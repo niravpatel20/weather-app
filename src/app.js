@@ -65,7 +65,7 @@ app.get('/weather', (req, res) => {
 
             res.send({
                 location,
-                forecast: summary+' It is currently '+temp+' degrees out. There is a '+probability+'% chance of rain. Humidity is '+humidity
+                forecast: summary+' It is currently '+temp+' degrees out. There is a '+probability+'% chance of rain.'
             })
         })
 
